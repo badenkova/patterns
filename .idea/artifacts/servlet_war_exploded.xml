@@ -23,6 +23,7 @@
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/FinalWebApplication/META-INF/MANIFEST.MF" />
       </element>
+      <element id="javaee-facet-resources" facet="servlet/web/Web" />
     </root>
   </artifact>
 </component>
