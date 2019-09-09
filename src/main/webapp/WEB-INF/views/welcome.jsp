@@ -31,8 +31,7 @@
 <body>
 <nav role="navigation" class="navbar navbar-default">
     <div class="">
-        <img src =
-                     "https://www.kv.by/sites/default/files/user7743/logo_iba_group.jpg" width="50"
+        <img src = "https://www.kv.by/sites/default/files/user7743/logo_iba_group.jpg" width="50"
              height="50">
     </div>
     <div class="navbar-collapse">
@@ -66,12 +65,10 @@
         <p> Введите имя <input name="nname" type="text" /> </p>
         <p> Введите телефон <input name="nphone" type="text" /> </p>
         <p> Введите email <input name="nemail" type="text" /> </p>
-        <input name="add" type="submit" />
+        <input class ="button-main-page" value="Добавить" type="submit" />
     </form>
-    <ul class="nav navbar-nav navbar-right">
-        <li><a href="LogoutServlet">Logout</a></li>
-    </ul>
 </div>
+<p> ${lastdate}</p>
 <footer class="footer">
     <div class="container">
         <p>2019 Все права защищены</p>
@@ -81,3 +78,4 @@
 <script src="webjars/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
+
